@@ -1,3 +1,9 @@
+<?php 
+if(get_field('redirect_url') !='') :
+    header('location:' . get_field('redirect_url'));
+endif;        
+?>
+
 <?php get_header(); ?>
 
 <div id="content" class="clearfix">
