@@ -1,7 +1,12 @@
 <?php 
-if(get_field('redirect_url') !='') :
-    header('location:' . get_field('redirect_url'));
-endif;        
+//if(get_field('redirect_url') !='') :
+//    header('location:' . get_field('redirect_url'));
+//endif;        
+    
+    $date_link = date("Y/m/d",strtotime($post->post_date));
+
+    header('location:http://evolable.asia/eva-blog/'.$date_link.'/'.$post->post_name);
+    
 ?>
 
 <?php get_header(); ?>
