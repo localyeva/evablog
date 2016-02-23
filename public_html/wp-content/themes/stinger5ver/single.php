@@ -5,7 +5,7 @@
     
     $date_link = date("Y/m/d",strtotime($post->post_date));
 
-    header('location:http://evolable.asia/eva-blog/'.$date_link.'/'.$post->post_name);
+    header('location:' . EVOLABLE_ASIA . '/eva-blog/'.$date_link.'/'.$post->post_name);
     
 ?>
 

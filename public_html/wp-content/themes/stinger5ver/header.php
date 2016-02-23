@@ -1,4 +1,3 @@
-<?php header('location:http://evolable.asia/eva-blog'); exit(); ?>
 <!DOCTYPE html>
 <!--[if lt IE 7]> <html class="ie6" <?php language_attributes(); ?>> <![endif]-->
 <!--[if IE 7]> <html class="i7" <?php language_attributes(); ?>> <![endif]-->
